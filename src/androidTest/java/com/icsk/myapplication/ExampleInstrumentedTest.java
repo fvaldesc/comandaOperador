@@ -20,6 +20,7 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
         // Context of the app under test.
+        //XCXZCZXCZ
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.icsk.myapplication", appContext.getPackageName());
     }
